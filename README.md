@@ -15,7 +15,7 @@ In Indian Markets (NSE & BSE):
 3. HDFCBANK.NS
 4. INFY.NS
 
-**Usage of suffixes such as: .NS, .BO, .L, .TO, .DE is also acceptabe**
+**Usage of suffixes such as: .NS, .BO, .L, .TO, .DE are also acceptable**
 
 ## Data Source:
 Yahoo Finance Server
