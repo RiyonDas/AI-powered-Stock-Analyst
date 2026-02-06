@@ -44,4 +44,6 @@ Yahoo Finance Server
    1. Backend:- uvicorn main:app --reload
    2. Frontend:- npm run dev
 
-   
+## UI/UX -
+<img width="1111" height="803" alt="image" src="https://github.com/user-attachments/assets/239af599-1680-4d95-9a12-bf198aa81b45" />
+
