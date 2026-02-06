@@ -22,26 +22,26 @@ Yahoo Finance Server
 
 ## Data Parameters used for security analysis:
 1. Relative Strength Index (RSI) -
-   Under 30: Oversold;
-   Over 70: Overbought.
+   1. Under 30: Oversold;
+   2. Over 70: Overbought.
 
 3. Moving Average (MA) -
-   If MA50 > MA200, then "Bullish";
-   If MA50 < MA200, then "Bearish".
+   1. If MA50 > MA200, then "Bullish";
+   2. If MA50 < MA200, then "Bearish".
    
 4. Combined Recommendation Logic -
    The final "Verdict" (Strong Buy, Hold, Sell) is determined by combining these:
-   Strong Buy: If the Trend is Bullish AND RSI is not Overbought (< 70);
-   Hold: If the Trend is Bullish but the RSI is getting too high;
-   Sell/Avoid: If the Trend is Bearish.
+   1. Strong Buy: If the Trend is Bullish AND RSI is not Overbought (< 70);
+   2. Hold: If the Trend is Bullish but the RSI is getting too high;
+   3. Sell/Avoid: If the Trend is Bearish.
 
 6. How the "AI Choice" (Winner) is Picked -
-   +10 Points for a "Strong Buy" recommendation;
-   +5 Points if the RSI is under 50 (indicating room to grow);
-   Comparison: The stock with the highest points gets the WINNER.
+   1. +10 Points for a "Strong Buy" recommendation;
+   2. +5 Points if the RSI is under 50 (indicating room to grow);
+   3. Comparison: The stock with the highest points gets the WINNER.
 
 ## Commands to RUN the terminals -
-Backend:- uvicorn main:app --reload
-Frontend:- npm run dev
+   1. Backend:- uvicorn main:app --reload
+   2. Frontend:- npm run dev
 
    
