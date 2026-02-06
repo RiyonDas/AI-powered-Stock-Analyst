@@ -2,7 +2,7 @@
 An Analytics platform that suggests you to Buy/Sell/Hold a security with respect to real-time Financial Data. 
 
 
-## Here is a breakdown of what you can compare on Simplistoxx.com:
+## What stocks can be analysed on Simplistoxx.com?
 In US Markets (NYSE):
 1. AAPL 
 2. TSLA
