@@ -1,6 +1,7 @@
 # AI-powered Stock Analyst
 An Analytics platform that suggests you to Buy/Sell/Hold a security with respect to real-time Financial Data. 
 
+
 ## Here is a breakdown of what you can compare on Simplistoxx.com:
 In US Markets (NYSE):
 1. AAPL 
@@ -15,10 +16,12 @@ In Indian Markets (NSE & BSE):
 3. HDFCBANK.NS
 4. INFY.NS
 
-**Usage of suffixes such as: .NS, .BO, .L, .TO, .DE are also acceptable**
+**Usage of suffixes such as: .NS for National Stock Exchange, .BO for Bombay Stock Exchange, .L for London Stock Exchange, .TO for Toronto Stock Exchange, .DE for German Stock Exchange are also acceptable**
+
 
 ## Data Source:
 Yahoo Finance Server
+
 
 ## Data Parameters used for security analysis:
 1. Relative Strength Index (RSI) -
@@ -40,10 +43,12 @@ Yahoo Finance Server
    2. +5 Points if the RSI is under 50 (indicating room to grow);
    3. Comparison: The stock with the highest points gets the WINNER.
 
+
 ## Commands to RUN the terminals -
    1. Backend:- uvicorn main:app --reload
    2. Frontend:- npm run dev
 
-## UI/UX -
+
+## Project UI -
 <img width="1111" height="803" alt="image" src="https://github.com/user-attachments/assets/239af599-1680-4d95-9a12-bf198aa81b45" />
 
