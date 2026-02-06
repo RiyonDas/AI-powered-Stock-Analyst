@@ -38,6 +38,10 @@ Yahoo Finance Server
 6. How the "AI Choice" (Winner) is Picked -
    +10 Points for a "Strong Buy" recommendation;
    +5 Points if the RSI is under 50 (indicating room to grow);
-   Comparison: The stock with the highest points gets the 🏆.
+   Comparison: The stock with the highest points gets the WINNER.
+
+## Commands to RUN the terminals -
+Backend:- uvicorn main:app --reload
+Frontend:- npm run dev
 
    
